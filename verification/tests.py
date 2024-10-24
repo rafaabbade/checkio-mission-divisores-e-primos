@@ -10,15 +10,25 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        
     {
-        "input": [3, 5],
-        "answer": [3, 6, 9, 12, 15]
+        "input": [7],
+        "answer": ([1, 7], "Primo")
     },
     {
-        "input": [2, 4],
-        "answer": [2, 4, 6, 8]
+        "input": [10],
+        "answer": ([1, 2, 5, 10], "Não é Primo")
+    },
+    {
+        "input": [1],
+        "answer": ([1], "Não é Primo")
+    },
+    {
+        "input": [13],
+        "answer": ([1, 13], "Primo")
+    },
+    {
+        "input": [15],
+        "answer": ([1, 3, 5, 15], "Não é Primo")
     }
-
-    ]
+]
 }
