@@ -5,18 +5,18 @@
 <h4>Enunciado</h4>
 
 <p>
-    Professor Thiago quer ajudar seus alunos a entender o conceito de múltiplos de um número. Ele deseja uma função que possa gerar os primeiros n múltiplos de um número x. Escreva uma função que receba dois inteiros, x (o número base) e n (o número de múltiplos a gerar), e use um loop while para criar uma lista com os primeiros n múltiplos de x.
+    Professor Thiago está ensinando seus alunos sobre números primos e seus divisores. Para auxiliar no aprendizado, ele deseja uma função que, dado um número inteiro, retorne uma tupla contendo uma lista com todos os divisores desse número e uma string que indique se o número é primo ou não. Escreva uma função que receba um inteiro n e utilize estruturas de controle de fluxo e iteração para determinar os divisores de n e verificar sua primalidade.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros, n e x.
+    <strong>Entrada: </strong> Um número inteiro n (n > 0).
 </p>
 
 <p>
-    <strong>Saída: </strong> Uma lista contendo os primeiros n múltiplos de x.
+    <strong>Saída: </strong> Uma tupla na qual: O primeiro elemento é uma lista contendo todos os divisores de n; O segundo elemento é uma string "Primo" se n for um número primo, ou "Não é Primo" caso contrário.
 </p>
 
 
@@ -32,7 +32,8 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    lista_multiplos(3, 5) >> [3, 6, 9, 12, 15]
+    divisores_e_primo(7) >> ([1, 7], "Primo")
+    divisores_e_primo(15) >> ([1, 3, 5, 15], "Não é Primo")
 
 </pre>
 {% endif %}
