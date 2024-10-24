@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "lista_multiplos",
+            "python": "divisores_e_primo",
             "js": "countConsecutiveSummers"
         },
         cover_code={
