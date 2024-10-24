@@ -12,23 +12,23 @@ TESTS = {
     "Basics": [
     {
         "input": [7],
-        "answer": ([1, 7], "Primo")
+        "answer": [[1, 7], "Primo"]
     },
     {
         "input": [10],
-        "answer": ([1, 2, 5, 10], "Não é Primo")
+        "answer": [[1, 2, 5, 10], "Não é Primo"]
     },
     {
         "input": [1],
-        "answer": ([1], "Não é Primo")
+        "answer": [[1], "Não é Primo"]
     },
     {
         "input": [13],
-        "answer": ([1, 13], "Primo")
+        "answer": [[1, 13], "Primo"]
     },
     {
         "input": [15],
-        "answer": ([1, 3, 5, 15], "Não é Primo")
+        "answer": [[1, 3, 5, 15], "Não é Primo"]
     }
 ]
 }
