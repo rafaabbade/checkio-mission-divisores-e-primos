@@ -1,12 +1,13 @@
-def lista_multiplos(x, n):
+def divisores_e_primo(n):
     # Seu código aqui
     return None
 
 print("Example:")
-print(lista_multiplos(3, 5))
+print(divisores_e_primo(7))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-assert lista_multiplos(3, 5) == [3, 6, 9, 12, 15]
-assert lista_multiplos(2, 4) == [2, 4, 6, 8]
+assert divisores_e_primo(7) == ([1, 7], "Primo")
+assert divisores_e_primo(10) == ([1, 2, 5, 10], "Não é Primo")
+assert divisores_e_primo(1) == ([1], "Não é Primo")
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
